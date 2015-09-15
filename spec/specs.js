@@ -13,6 +13,10 @@ describe('reverse', function() {
 
 describe('compare', function() {
   it("returns true if given a palindrome", function() {
-      expect(compare(wow)).to.equal(true);
+      expect(compare("wow")).to.equal(true);
+  })
+
+  it("returns false if not given a palindrome", function() {
+      expect(compare("coffee")).to.equal(false);
   })
 });
