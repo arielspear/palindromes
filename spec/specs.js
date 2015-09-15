@@ -9,3 +9,10 @@ describe('reverse', function() {
       expect(reverse(['p', 'u', 'p', 'p', 'y'])).to.eql(['y', 'p', 'p', 'u', 'p']);
   })
 });
+
+
+describe('compare', function() {
+  it("returns true if given a palindrome", function() {
+      expect(compare(wow)).to.equal(true);
+  })
+});
